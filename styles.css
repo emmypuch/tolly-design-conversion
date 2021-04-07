@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  div.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  div.container {
+    padding: 10px 20px;
+    max-width: 1000px;
+    width: 100%;
+    height: 600px;
+    box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+    background: #fff;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  div.grid1 {
+    background: red;
+    padding: 10px;
+    width: 550px;
+  }
+  
+  div.grid-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+  }
+  
+  div.logo {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  h6 {
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  div.logo img {
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+  }
+  
+  div.input {
+    background: #fff;
+    width: 120px;
+    padding: 0px 5px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+  }
+  
+  div.text {
+    font-size: 0.6rem;
+    text-align: center;
+    position: relative;
+    top: 4px;
+  }
+  
+  div.image {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: relative;
+    top: 0px;
+  }
+  
+  div.input {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  div.payment {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+  }
+  
+  div.payment h3 {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  
+  div.sub-payment {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 4em;
+  }
+  
+  div.sub-payment h5 {
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  div.sub-payment p{
+    font-size: 0.8rem;
+  }
+  
+  div.sub-payment .lock {
+    padding: 3px;
+  }
+  
+  div.credit {
+    padding: 2em;
+  }
+  
+  div.credit ul {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #fff;
+  }
+  
+  div.credit li {
+    list-style: none;
+    padding-bottom: 3px;
+  }
+  
+  div.credit .ul-border {
+    width: 60px;
+    height: 3px;
+    background: blue;
+    position: relative;
+    top: -3px;
+  }
+  
+  /* Credit Card */
+  div.credit-card {
+     /* padding: 1em; */
+  }
+
+  div.card1 {
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr );
+    grid-template-rows: repeat (3, 1fr ); */
+  }
+
+  div.card-image img {
+      width: 130px;
+      height: 150px;
+  }
+
+  div.name {
+      padding-top: 2em;
+      padding-left: 4em;
+  }
+
+  div.name h6 {
+      font-size: 0.8rem;
+      padding-bottom: 7px;
+  }
+
+  div.card-input {
+      background: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 5px 10px;
+      width: 15%;
+      outline: none;
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+  }
+
+  div.card-input h5 {
+      font-size: 0.7rem;
+      position: relative;
+      top: 5px;
+  }
+
+  div.dot1 {
+      background: rgb(219, 109, 109);
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      position: relative;
+      left: 20px;
+  }
+
+  div.dot2 {
+    background: yellow;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    right: 8px;
+}
+
+div.card2 {
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr );
+    grid-template-rows: repeat (3, 1fr ); */
+  }
+  
+  div.card-image2 img {
+    width: 130px;
+    height: 150px;
+}
+
+div.name2 {
+    padding-top: 2em;
+    padding-left: 4em;
+}
+
+div.name2 h6 {
+    font-size: 0.8rem;
+    padding-bottom: 7px;
+}
+
+div.card-input2 {
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    width: 15%;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+}
+
+div.card-input2 h5 {
+    font-size: 0.7rem;
+    text-align: center;
+}
+  
+  
+  /* Grid Styling */
+  div.grid2 {
+    background: rgb(246, 248, 249);
+  }
+
+  h1 {
+      padding: 1em;
+      font-size: 1.5rem;
+  }
+
+  div.icons {
+      display: flex;
+      justify-content: space-between;
+      padding: 2em;
+  }
+
+  div.icon1, div.icon2, div.icon3 {
+      display: flex;
+      justify-content: space-between;
+}
+
+div.icon1 h4, div.icon2 h4, div.icon3 h4 {
+    margin-left: 8px;
+    font-size: 1rem;
+}
+
+div.icons h4 {
+    font-size: 0.7rem;
+    color: rgb(202, 197, 197);
+}
+
+div.icon1 i {
+    background: rgb(206, 218, 253);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    font-size: 0.8rem;
+}
+
+div.icon2 i {
+    background: rgb(249, 203, 161);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    font-size: 0.8rem;
+}
+
+div.icon3 i {
+    background: rgb(189, 219, 166);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    font-size: 0.8rem;
+}
+
+/* prada */
+div.prada-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.prada-input {
+    background: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 330px;
+    padding: 10px 20px;
+}
+
+div.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* list styling */
+div.list-grid {
+    display: grid;
+    grid-template-columns: repeat (4, 1fr );
+    grid-template-rows: repeat (4, 1fr );
+    padding: 2.3em;
+}
+
+div.lisst-flex1 {
+    display: flex;
+    justify-content: space-between; 
+}
+
+div.lisst-flex2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px; 
+}
+
+div.lisst-flex3 {
+    display: flex;
+    justify-content: space-between; 
+    padding-top: 5px;
+}
+
+div.lisst-flex4 {
+    display: flex;
+    justify-content: space-between; 
+    padding-top: 5px;
+}
+
+div.lisst-flex1 h6, div.lisst-flex2 h6, div.lisst-flex3 h6, div.lisst-flex4 h6 {
+    color: rgb(202, 197, 197);
+    font-size: 0.8rem;
+}
+
+/* marten */
+div.prada-section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 7px;
+}
+
+/* chanel */
+div.prada-section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7px;
+}
+
+/* total */

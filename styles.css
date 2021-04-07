@@ -250,7 +250,8 @@ div.card-input2 h5 {
 
   h1 {
       padding: 1em;
-      font-size: 1.5rem;
+      font-size: 1.4rem;
+      color: rgb(23, 23, 23);
   }
 
   div.icons {
@@ -281,6 +282,7 @@ div.icon1 i {
     height: 35px;
     padding: 10px;
     font-size: 0.8rem;
+    color: rgb(77, 116, 233);
 }
 
 div.icon2 i {
@@ -290,6 +292,7 @@ div.icon2 i {
     height: 35px;
     padding: 10px;
     font-size: 0.8rem;
+    color: rgb(216, 162, 82);
 }
 
 div.icon3 i {
@@ -299,6 +302,7 @@ div.icon3 i {
     height: 35px;
     padding: 10px;
     font-size: 0.8rem;
+    color: rgb(124, 211, 66);
 }
 
 /* prada */

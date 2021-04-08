@@ -179,6 +179,11 @@
     position: relative;
     top: -3px;
   }
+  @media screen and (max-width: 768px) {
+    div.credit ul {
+        gap: 40px;
+      }
+  }
   
   /* Cards details */
 div.card-tab-container {
@@ -246,7 +251,7 @@ div.card-tab-container {
   @media screen and (max-width: 768px) {
     div.input-container input[type="text"], div.sub-form input[type="text"] {
         display: block;
-        width: 100%;
+        width: 90%;
     }
 
     div.sub-form {

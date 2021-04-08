@@ -120,7 +120,7 @@
   
   div.credit ul {
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
     border-bottom: 2px solid rgb(252, 249, 249);
   }
   
@@ -162,7 +162,7 @@ div.card-tab-container {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 20px;
-      margin-top: 30px;
+      margin-top: 35px;
   }
 
   div.input-container {
@@ -213,23 +213,31 @@ div.card-tab-container {
 }
 
   div.dot1 {
-      background: rgb(219, 109, 109);
+      background: rgb(236, 15, 28);
       width: 20px;
       height: 20px;
       border-radius: 50%;
       position: relative;
       left: 180px;
       bottom: 25px;
+      z-index: 100;
   }
 
   div.dot2 {
-    background: yellow;
+    background: orange;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     position: relative;
     left: 190px;
     bottom: 45px;
+}
+
+.eye {
+    position: relative;
+    bottom: 23px;
+    left: 60px;
+    font-size: 0.8rem;
 }
   
   
@@ -327,13 +335,13 @@ div.list-grid {
 div.lisst-flex1 {
     display: flex;
     justify-content: space-between;
-    padding-top: 10px; 
+    padding-top: 20px; 
 }
 
 div.lisst-flex4 {
     display: flex;
     justify-content: space-between; 
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 div.lisst-flex1 h6, div.lisst-flex2 h6, div.lisst-flex3 h6, div.lisst-flex4 h6 {
@@ -346,7 +354,7 @@ div.prada-section1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 7px;
+    padding-bottom: 10px;
 }
 
 /* chanel */
@@ -354,7 +362,7 @@ div.prada-section2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 7px;
+    padding-top: 10px;
 }
 
 /* total */

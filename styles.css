@@ -92,7 +92,7 @@
 
   @media screen and (max-width: 768px) {
     div.container {
-        padding: 10px 20px;
+        padding-bottom: 10px;
         max-width: 500px;
         width: 100%;
         min-height: 600px;
@@ -343,6 +343,12 @@ div.card-tab-container {
   /* Grid2 Styling */
   div.grid2 {
     background: rgb(246, 248, 249);
+  }
+
+  @media screen and (max-width: 768px) {
+    div.grid2 {
+        margin-top: 15px;
+    }
   }
 
   h1 {

@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
   
   div.wrapper {
@@ -55,11 +55,19 @@
   
   div.input {
     background: rgb(246, 248, 249);
-    width: 120px;
+    width: 150px;
     padding: 0px 5px;
     border-radius: 10px;
     outline: none;
     border: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    div.input {
+        width: 170px;
+        padding: 5px 8px;
+        border-radius: 15px;
+      }
   }
   
   div.text {
@@ -69,18 +77,38 @@
     top: 4px;
   }
   
-  div.image {
-    width: 20px;
-    height: 20px;
+  div.image img{
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
-    background: #000;
     position: relative;
-    top: 0px;
+    top: 3px;
   }
   
   div.input {
     display: flex;
     justify-content: space-between;
+  }
+
+  @media screen and (max-width: 768px) {
+    div.container {
+        padding: 10px 20px;
+        max-width: 500px;
+        width: 100%;
+        min-height: 600px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      div.grid1 {
+        padding: 10px;
+        width: 400px;
+      }
+      
+      div.logo {
+        display: flex;
+        flex-direction: column;
+      }
   }
   
   div.payment {
@@ -112,6 +140,20 @@
   
   div.sub-payment .lock {
     padding: 3px;
+  }
+
+  @media screen and (max-width: 768px) {
+    div.payment {
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+      }
+
+      div.sub-payment {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+      }
   }
   
   div.credit {
@@ -146,11 +188,27 @@ div.card-tab-container {
     padding: 2em;
 }
 
+@media screen and (max-width: 768px) {
+    div.card-tab-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0;
+        padding: 0;
+    }
+}
+
   div.images img{
       display: block;
       width: 100%;
       height: 100px;
       object-fit: contain;
+  }
+
+  @media screen and (max-width: 768px) {
+    div.images img{
+        /* width: 65%; */
+    }
   }
 
   div.img {
@@ -161,8 +219,8 @@ div.card-tab-container {
   div.sub-form {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 20px;
-      margin-top: 35px;
+      gap: 15px;
+      margin-top: 30px;
   }
 
   div.input-container {
@@ -185,11 +243,25 @@ div.card-tab-container {
       font-size: 0.7rem;
   }
 
+  @media screen and (max-width: 768px) {
+    div.input-container input[type="text"], div.sub-form input[type="text"] {
+        display: block;
+        width: 100%;
+    }
+
+    div.sub-form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 30px;
+    }
+  }
+
   /* input-btn */
   div.input-btn {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 40px;
+    margin-top: 20px;
   }
 
   .btn1 {
@@ -210,6 +282,22 @@ div.card-tab-container {
     border-radius: 5px;
     border: none;
     font-size: 0.6rem;
+}
+
+@media screen and (max-width: 768px) {
+    div.input-btn {
+        display: flex;
+        flex-basis: 100%;
+        width: 100%;max-width: 100%;
+      }
+
+      .btn1 {
+        width: 130px;
+    }
+  
+    .btn2 {
+       width: 130px;
+    }
 }
 
   div.dot1 {
@@ -238,6 +326,23 @@ div.card-tab-container {
     bottom: 23px;
     left: 60px;
     font-size: 0.8rem;
+}
+
+@media screen and (max-width: 768px) {
+    div.dot1 {
+        left: 280px;
+        bottom: 25px;
+    }
+  
+    div.dot2 {
+      left: 290px;
+      bottom: 45px;
+  }
+
+  .eye {
+      bottom: 25px;
+      left: 280px;
+   }
 }
   
   

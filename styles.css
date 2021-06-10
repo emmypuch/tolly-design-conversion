@@ -1,482 +1,491 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  div.wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  div.container {
-    padding: 10px 20px;
-    max-width: 1000px;
-    width: 100%;
-    min-height: 600px;
-    box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
-    background: #fff;
-    margin-top: 5%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-  div.grid1 {
-    background: #fff;
-    padding: 10px;
-    width: 550px;
-  }
-  
-  div.grid-content {
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
-  }
-  
-  div.logo {
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  h6 {
-    font-size: 1rem;
-    color: rgb(23, 23, 23);
-  }
-  
-  div.logo img {
-    width: 20px;
-    height: 20px;
-    margin-right: 3px;
-  }
-  
-  div.input {
-    background: rgb(246, 248, 249);
-    width: 150px;
-    padding: 0px 5px;
-    border-radius: 10px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
 
-  @media screen and (max-width: 768px) {
-    div.input {
-        width: 200px;
-        padding: 5px 8px;
-        border-radius: 15px;
-      }
-  }
-  
-  div.text {
-    font-size: 0.6rem;
-    text-align: center;
-    position: relative;
-    top: 4px;
-  }
-  
-  div.image img{
-    width: 30px;
-    height: 30px;
-    border-radius: 100%;
-    position: relative;
-    top: 3px;
-  }
-  
-  div.input {
-    display: flex;
-    justify-content: space-between;
-  }
+div.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  @media screen and (max-width: 768px) {
-    div.container {
-        padding-bottom: 10px;
-        max-width: 500px;
-        width: 100%;
-        min-height: 600px;
-        display: flex;
-        flex-direction: column;
-      }
+div.container {
+  padding: 10px 20px;
+  max-width: 1000px;
+  width: 100%;
+  min-height: 600px;
+  box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+  background: #fff;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 
-      div.grid1 {
-        padding: 10px;
-        width: 400px;
-      }
-      
-      div.logo {
-        display: flex;
-        flex-direction: column;
-      }
-  }
-  
-  div.payment {
-    display: flex;
-    justify-content: space-between;
-    padding: 2em;
-  }
-  
-  div.payment h3 {
-    font-size: 1.2rem;
-    color: rgb(23, 23, 23);
-  }
-  
-  div.sub-payment {
-    display: flex;
-    justify-content: space-around;
-    padding-left: 4em;
-  }
-  
-  div.sub-payment h5 {
-    font-size: 0.8rem;
-    color: rgb(23, 23, 23);
-  }
-  
-  div.sub-payment p{
-    font-size: 0.5rem;
-    color: rgb(202, 197, 197);
-  }
-  
-  div.sub-payment .lock {
-    padding: 3px;
-  }
+div.grid1 {
+  background: #fff;
+  padding: 10px;
+  width: 550px;
+}
 
-  @media screen and (max-width: 768px) {
-    div.payment {
-        display: flex;
-        flex-direction: column;
-        padding: 1em;
-      }
+div.grid-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
 
-      div.sub-payment {
-        display: flex;
-        flex-direction: column;
-        padding-left: 0;
-      }
-  }
-  
-  div.credit {
-    padding: 2em;
-  }
-  
-  div.credit ul {
-    display: flex;
-    gap: 30px;
-    border-bottom: 2px solid rgb(252, 249, 249);
-  }
-  
-  div.credit li {
-    list-style: none;
-    padding-bottom: 7px;
-    cursor: pointer;
-  }
-  
-  div.credit .ul-border {
-    width: 60px;
-    height: 2px;
-    margin-top: 3=2px;
-    background: rgb(23, 23, 23);
-    position: relative;
-    top: -3px;
-  }
-  
-  /* Cards details */
-div.card-tab-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    padding: 2em;
+div.logo {
+  display: flex;
+  justify-content: space-around;
+}
+
+h6 {
+  font-size: 1rem;
+  color: rgb(23, 23, 23);
+}
+
+div.logo img {
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+}
+
+div.input {
+  background: rgb(246, 248, 249);
+  width: 150px;
+  padding: 0px 5px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
-    div.card-tab-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 0;
-        padding: 0;
-    }
+  div.input {
+    width: 200px;
+    padding: 5px 8px;
+    border-radius: 15px;
+  }
 }
 
-  div.images img{
-      display: block;
-      width: 100%;
-      height: 100px;
-      object-fit: contain;
+div.text {
+  font-size: 0.6rem;
+  text-align: center;
+  position: relative;
+  top: 4px;
+}
+
+div.image img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  position: relative;
+  top: 3px;
+}
+
+div.input {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  div.container {
+    padding-bottom: 10px;
+    max-width: 500px;
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
   }
 
-  div.img {
-      margin-bottom: 10px;
+  div.grid1 {
+    padding: 10px;
+    width: 400px;
   }
 
-  /* subform */
+  div.logo {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+div.payment {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+div.payment h3 {
+  font-size: 1.2rem;
+  color: rgb(23, 23, 23);
+}
+
+div.sub-payment {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 4em;
+}
+
+div.sub-payment h5 {
+  font-size: 0.8rem;
+  color: rgb(23, 23, 23);
+}
+
+div.sub-payment p {
+  font-size: 0.5rem;
+  color: rgb(202, 197, 197);
+}
+
+div.sub-payment .lock {
+  padding: 3px;
+}
+
+@media screen and (max-width: 768px) {
+  div.payment {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+  }
+
+  div.sub-payment {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+  }
+}
+
+div.credit {
+  padding: 2em;
+}
+
+div.credit ul {
+  display: flex;
+  gap: 30px;
+  border-bottom: 2px solid rgb(252, 249, 249);
+}
+
+div.credit li {
+  list-style: none;
+  padding-bottom: 7px;
+  cursor: pointer;
+}
+
+div.credit .ul-border {
+  width: 60px;
+  height: 2px;
+  margin-top: 3=2px;
+  background: rgb(23, 23, 23);
+  position: relative;
+  top: -3px;
+}
+
+/* Cards details */
+div.card-tab-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 2em;
+}
+
+@media screen and (max-width: 768px) {
+  div.card-tab-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+    padding: 0;
+  }
+}
+
+div.images img {
+  display: block;
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+}
+
+div.img {
+  margin-bottom: 10px;
+}
+
+/* subform */
+div.sub-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-top: 30px;
+}
+
+div.input-container {
+  margin-bottom: 5px;
+}
+
+label {
+  color: rgb(202, 197, 197);
+  font-size: 0.7rem;
+}
+
+div.input-container input[type="text"],
+div.sub-form input[type="text"] {
+  display: block;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: rgb(246, 248, 249);
+  padding: 7px 15px;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  div.input-container input[type="text"],
+  div.sub-form input[type="text"] {
+    display: block;
+    width: 92%;
+  }
+
   div.sub-form {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 15px;
-      margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
   }
+}
 
-  div.input-container {
-      margin-bottom: 5px;
-  }
-  
-  label {
-      color: rgb(202, 197, 197);
-      font-size: 0.7rem;
-  }
+/* input-btn */
+div.input-btn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 20px;
+}
 
-  div.input-container input[type="text"], div.sub-form input[type="text"] {
-      display: block;
-      width: 100%;
-      outline: none;
-      border-radius: 5px;
-      border: none;
-      background: rgb(246, 248, 249);
-      padding: 7px 15px;
-      font-size: 0.7rem;
-      cursor: pointer;
-  }
+.btn1 {
+  padding: 5px 25px;
+  background: rgb(23, 23, 23);
+  color: #fff;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  font-size: 0.5rem;
+  cursor: pointer;
+}
 
-  @media screen and (max-width: 768px) {
-    div.input-container input[type="text"], div.sub-form input[type="text"] {
-        display: block;
-        width: 92%;
-    }
+.btn2 {
+  padding: 5px 25px;
+  background: transparent;
+  color: rgb(202, 197, 197);
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  font-size: 0.6rem;
+  cursor: pointer;
+}
 
-    div.sub-form {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        margin-top: 30px;
-    }
-  }
-
-  /* input-btn */
+@media screen and (max-width: 768px) {
   div.input-btn {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 20px;
+    display: flex;
+    flex-basis: 100%;
+    width: 100%;
+    max-width: 100%;
   }
 
   .btn1 {
-      padding: 5px 25px;
-      background: rgb(23, 23, 23);
-      color: #fff;
-      outline: none;
-      border-radius: 5px;
-      border: none;
-      font-size: 0.5rem;
-      cursor: pointer;
+    width: 130px;
   }
 
   .btn2 {
-    padding: 5px 25px;
-    background: transparent;
-    color: rgb(202, 197, 197);
-    outline: none;
-    border-radius: 5px;
-    border: none;
-    font-size: 0.6rem;
-    cursor: pointer;
-}
-
-@media screen and (max-width: 768px) {
-    div.input-btn {
-        display: flex;
-        flex-basis: 100%;
-        width: 100%;max-width: 100%;
-      }
-
-      .btn1 {
-        width: 130px;
-    }
-  
-    .btn2 {
-       width: 130px;
-    }
-}
-
-  div.dot1 {
-      background: rgb(236, 15, 28);
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      position: relative;
-      left: 180px;
-      bottom: 25px;
-      z-index: 100;
+    width: 130px;
   }
+}
 
-  div.dot2 {
-    background: orange;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    position: relative;
-    left: 190px;
-    bottom: 45px;
+div.dot1 {
+  background: rgb(236, 15, 28);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: relative;
+  left: 180px;
+  bottom: 25px;
+  z-index: 100;
+}
+
+div.dot2 {
+  background: orange;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: relative;
+  left: 190px;
+  bottom: 45px;
 }
 
 .eye {
-    position: relative;
-    bottom: 23px;
-    left: 60px;
-    font-size: 0.8rem;
+  position: relative;
+  bottom: 28px;
+  left: 70px;
+  font-size: 0.8rem;
 }
 
 @media screen and (max-width: 768px) {
-    div.dot1 {
-        left: 280px;
-        bottom: 25px;
-    }
-  
-    div.dot2 {
-      left: 290px;
-      bottom: 45px;
+  div.dot1 {
+    left: 280px;
+    bottom: 25px;
+  }
+
+  div.dot2 {
+    left: 290px;
+    bottom: 45px;
   }
 
   .eye {
-      bottom: 25px;
-      left: 280px;
-   }
+    bottom: 25px;
+    left: 280px;
+  }
 }
-  
-  
-  /* Grid2 Styling */
+
+/* Grid2 Styling */
+div.grid2 {
+  background: rgb(246, 248, 249);
+}
+
+@media screen and (max-width: 768px) {
   div.grid2 {
-    background: rgb(246, 248, 249);
+    margin-top: 15px;
   }
-
-  @media screen and (max-width: 768px) {
-    div.grid2 {
-        margin-top: 15px;
-    }
-  }
-
-  h1 {
-      padding: 1em;
-      font-size: 1.4rem;
-      color: rgb(23, 23, 23);
-  }
-
-  div.icons {
-      display: flex;
-      justify-content: space-between;
-      padding: 2em;
-      cursor: pointer;
-  }
-
-  div.icon1, div.icon2, div.icon3 {
-      display: flex;
-      justify-content: space-between;
 }
 
-div.icon1 h4, div.icon2 h4, div.icon3 h4 {
-    margin-left: 8px;
-    font-size: 1rem;
+h1 {
+  padding: 1em;
+  font-size: 1.4rem;
+  color: rgb(23, 23, 23);
+}
+
+div.icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  cursor: pointer;
+}
+
+div.icon1,
+div.icon2,
+div.icon3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.icon1 h4,
+div.icon2 h4,
+div.icon3 h4 {
+  margin-left: 8px;
+  font-size: 1rem;
 }
 
 div.icons h4 {
-    font-size: 0.7rem;
-    color: rgb(202, 197, 197);
+  font-size: 0.7rem;
+  color: rgb(202, 197, 197);
 }
 
 div.icon1 i {
-    background: rgb(206, 218, 253);
-    border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    padding: 10px;
-    font-size: 0.8rem;
-    color: rgb(77, 116, 233);
+  background: rgb(206, 218, 253);
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+  font-size: 0.8rem;
+  color: rgb(77, 116, 233);
 }
 
 div.icon2 i {
-    background: rgb(249, 203, 161);
-    border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    padding: 10px;
-    font-size: 0.8rem;
-    color: rgb(216, 162, 82);
+  background: rgb(249, 203, 161);
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+  font-size: 0.8rem;
+  color: rgb(216, 162, 82);
 }
 
 div.icon3 i {
-    background: rgb(189, 219, 166);
-    border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    padding: 10px;
-    font-size: 0.8rem;
-    color: rgb(124, 211, 66);
+  background: rgb(189, 219, 166);
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+  font-size: 0.8rem;
+  color: rgb(124, 211, 66);
 }
 
 /* prada */
 div.prada-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 div.prada-input {
-    background: #fff;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    width: 330px;
-    padding: 10px 20px;
-    cursor: pointer;
+  background: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  width: 330px;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
 div.content {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* list styling */
 div.list-grid {
-    display: grid;
-    grid-template-columns: repeat (4, 1fr );
-    grid-template-rows: repeat (4, 1fr );
-    padding: 2.3em;
+  display: grid;
+  grid-template-columns: repeat (4, 1fr);
+  grid-template-rows: repeat (4, 1fr);
+  padding: 2.3em;
 }
 
 div.lisst-flex1 {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 20px; 
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
 }
 
 div.lisst-flex4 {
-    display: flex;
-    justify-content: space-between; 
-    padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
 }
 
-div.lisst-flex1 h6, div.lisst-flex2 h6, div.lisst-flex3 h6, div.lisst-flex4 h6 {
-    color: rgb(202, 197, 197);
-    font-size: 0.8rem;
+div.lisst-flex1 h6,
+div.lisst-flex2 h6,
+div.lisst-flex3 h6,
+div.lisst-flex4 h6 {
+  color: rgb(202, 197, 197);
+  font-size: 0.8rem;
 }
 
 /* marten */
 div.prada-section1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 10px;
-    cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  cursor: pointer;
 }
 
 /* chanel */
 div.prada-section2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10px;
-    cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  cursor: pointer;
 }
 
 /* total */

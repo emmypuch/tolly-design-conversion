@@ -7,20 +7,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-div.wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 div.container {
-  padding: 10px 20px;
-  max-width: 1000px;
-  width: 100%;
-  min-height: 600px;
-  box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
-  background: #fff;
-  margin-top: 5%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -75,12 +62,12 @@ div.text {
   font-size: 0.6rem;
   text-align: center;
   position: relative;
-  top: 4px;
+  top: 6px;
 }
 
 div.image img {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 15px;
   border-radius: 100%;
   position: relative;
   top: 3px;
@@ -93,10 +80,6 @@ div.input {
 
 @media screen and (max-width: 768px) {
   div.container {
-    padding-bottom: 10px;
-    max-width: 500px;
-    width: 100%;
-    min-height: 600px;
     display: flex;
     flex-direction: column;
   }
@@ -376,6 +359,7 @@ div.icon2,
 div.icon3 {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 div.icon1 h4,
